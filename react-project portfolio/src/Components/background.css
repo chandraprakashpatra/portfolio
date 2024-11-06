@@ -1,0 +1,36 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+  }
+
+.BackgroundPattern{
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    height: 100vh;          
+    width: 80vw;            
+    background-color: #000000; 
+    overflow: hidden;         
+    padding: 20px;            
+    text-align: center;  
+
+}
+.eclipsecontainer{ 
+    position: relative; 
+    overflow: hidden; 
+    width: 100vw;
+    height: 100vh;
+ } */
+
+.eclipsecontainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* height: 100%; */
+  z-index: -1; /* Ensures it stays behind everything */
+  /* overflow: hidden; */
+}

@@ -1,0 +1,30 @@
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.l-img{
+height: 1rem;
+width: 1rem;
+}
+.g-img{
+    height: 1.3rem;
+    width: 1.3rem;
+    }
+.leet-img{
+    height: 1.1rem;
+    width: 1.05rem;
+    
+}
