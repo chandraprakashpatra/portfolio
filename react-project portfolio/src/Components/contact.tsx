@@ -25,6 +25,22 @@ function contact(){
                     </div>
                 </div>
             </div>
+            <div className="email_num">
+                <div className="email_vert">
+                    <p> &copy;chandraprakashpatra </p>
+                </div>
+            </div>
+            <div className="email_num">
+                <div className="email_vert">
+                    <a href="mailto:chandraprakashpatra2002@gmail.com">chandraprakashpatra2002@gmail.com</a>
+                </div>
+            </div>
+            <div className="email_num">
+                <div className="email_vert">
+                    <a href="tel:+91 9348493918">+91 9348493918</a>
+                </div>
+            </div>
+            <br />
         </div>
     );
 }
