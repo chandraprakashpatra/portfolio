@@ -8,6 +8,7 @@ import Contact from './Components/contact'
 import Cert from './Components/cert&acheive'
 import Skills from './Components/skills'
 // import './app.css'
+import Experience from './Components/experience'
 import background from './back.jpg'
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <Header></Header>
       {/* <Background></Background> */}
       <Profile></Profile>
+      <Experience></Experience>
       <Skills></Skills>
       <Cert></Cert>
       <Contact></Contact>

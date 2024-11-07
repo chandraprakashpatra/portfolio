@@ -1,0 +1,31 @@
+/* Nutanix image styling */
+.nutanix-image {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(100%); /* Start off-screen to the right */
+    transition: all 2s ease;
+    position: relative;
+    margin: 0 auto; /* Centers the element horizontally */
+    width: 60%; /* Adjust size as needed */
+    max-width: 500px; /* Limit max width */
+  }
+  
+  .nutanix-image.active {
+    opacity: 1; /* Fade in */
+    transform: translateX(0rem); /* Slide in to center */
+  }
+
+  .logocontain{
+    display: flex;
+    justify-content: center;
+  }
+  .n_logo{
+   
+    width: 15rem;
+    height: 7rem;
+  }
+  p{
+    text-align: center;
+  }
+  h1{
+    margin-top: 0.4rem;
+  }
