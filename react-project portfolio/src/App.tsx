@@ -10,6 +10,9 @@ import Skills from './Components/skills'
 // import './app.css'
 import Experience from './Components/experience'
 import background from './back.jpg'
+import EranterfacesSection from './Components/exp2'
+
+
 function App() {
  
 
@@ -19,6 +22,8 @@ function App() {
       {/* <Background></Background> */}
       <Profile></Profile>
       <Experience></Experience>
+      {/* <Exp2></Exp2> */}
+      <EranterfacesSection></EranterfacesSection>
       <Skills></Skills>
       <Cert></Cert>
       <Contact></Contact>

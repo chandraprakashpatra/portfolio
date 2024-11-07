@@ -54,7 +54,7 @@ function NutanixSection() {
             </div>
             <div className="description">
             {/* <h2>My Work at Nutanix</h2> */}
-            <p>At Nutanix, I contributed to UberTower, a key project I helped manage and develop. My role involved overseeing complex tasks and actively participating in the project’s growth. I honed my skills in troubleshooting and problem-solving within data center environments and deployments, gaining valuable experience in real-world systems and applications.</p>
+            <p>" At Nutanix, I contributed to UberTower, a key project I helped manage and develop. My role involved overseeing complex tasks and actively participating in the project’s growth. I honed my skills in troubleshooting and problem-solving within data center environments and deployments, gaining valuable experience in real-world systems and applications. "</p>
             </div>
         </div>
         </section>

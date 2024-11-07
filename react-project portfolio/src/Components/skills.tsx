@@ -4,12 +4,12 @@ import React from "react";
 
 
 const SkillsLoop: React.FC = () => {
-  const skills = ["JavaScript", "React", "TypeScript", "Python", "Django", "Node.js", "CSS", "HTML"];
+  const skills = ["JavaScript", "React", "TypeScript", "C" ,"Python", "Django", "Node.js", "CSS", "HTML","Express.js","Vmware","NutanixCloud","Jenkins","Docker","Git","Linux"];
 
   return (
     <div>
          <h1>
-          <Lg className="chill" gradient={["to left","#eb3f3f ,#fff0a8, #5e56fb"]}>Skills</Lg>    
+          <Lg className="sk" gradient={["to left","#eb3f3f , #5e56fb"]}>Skills</Lg>    
          </h1>
     <div className="skills-loop">
       <div className="skills-scroll">
