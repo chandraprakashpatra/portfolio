@@ -1,20 +1,21 @@
 
 import './App.css'
 
-import Background from './Components/background'
+// import Background from './Components/background'
 import Header from './Components/header'
 import Profile from './Components/profile'
 import Contact from './Components/contact'
 import Cert from './Components/cert&acheive'
 import Skills from './Components/skills'
-
+// import './app.css'
+import background from './back.jpg'
 function App() {
  
 
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${background})` }} >
       <Header></Header>
-      <Background></Background>
+      {/* <Background></Background> */}
       <Profile></Profile>
       <Skills></Skills>
       <Cert></Cert>
